@@ -1,0 +1,73 @@
+body{
+    background : #e7e7e7;
+}
+.panier-img{
+    background-image: url('image/panier.png');
+}
+.first-nav{
+  position: relative;
+  min-height: 70px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+.log-img{
+    width: 170px;
+    height: 50px;
+}
+.log-img img{
+    box-sizing: content-box;
+    height: 50px;
+    width: 100%;
+}
+.first-nav{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: right;
+
+}
+.nav-bottom{
+    background-color: #e7e7e7;
+}
+.slider-picture {
+    background-image: url('image/slide1.jpg');
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.article-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fond-ecran {
+    background: #fff;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    border: 2px solid #e7e7e7;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    }
+    .arctile-item{
+        width: 30%;
+        height: 400px;
+    }
+    .arctile-item img{
+        width: 70%;
+        height: 200px;
+    }
+    .total{
+        height: 50px;
+        text-align: center;
+        background-color: white; 
+    }
+    .form-rech{
+        display: flex;
+    }
+    
